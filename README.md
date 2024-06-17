@@ -1,1 +1,824 @@
 #abhi-k-nair.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
+  
+  <title>Virtual Folio - Portfolio HTML5 Template</title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/themify-icons.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/animate/animate.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/owl-carousel/owl.carousel.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/nice-select/css/nice-select.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/fancybox/css/jquery.fancybox.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/minibar.virtual.css">
+</head>
+<body class="theme-red">
+  
+  <!-- Back to top button -->
+  <div class="btn-back_to_top">
+    <span class="ti-arrow-up"></span>
+  </div>
+  
+  <!-- Setting button -->
+  <div class="config">
+    <div class="template-config">
+      <!-- Settings -->
+      <div class="d-block">
+        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
+      </div>
+      <!-- Puschase -->
+      <div class="d-block">
+        <a href="https://macodeid.com/projects/virtual-folio/" class="btn btn-fab btn-sm" title="Get this template" data-toggle="tooltip" data-placement="left"><span class="ti-download"></span></a>
+      </div>
+      <!-- Help -->
+      <div class="d-block">
+        <a href="#" class="btn btn-fab btn-sm" title="Help" data-toggle="tooltip" data-placement="left"><span class="ti-help"></span></a>
+      </div>
+    </div>
+    <!-- <div class="set-menu">
+      <p>Select Color</p>
+      <div class="color-bar" data-toggle="selected">
+        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
+        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
+        <span class="color-item bg-theme-green" data-class="theme-green"></span>
+        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
+        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
+      </div>
+      <select class="custom-select d-block my-2" id="change-page">
+        <option value="">Choose Page</option>
+        <option value="index">Topbar</option>
+        <option value="blog-topbar">Blog (Topbar)</option>
+        <option value="index-2">Minibar</option>
+        <option value="blog-minibar">Blog (Minibar)</option>
+      </select>
+    </div> -->
+  </div>
+  
+  <div class="topbar-nav fixed-top">
+    <div class="brand">
+      <img src="../assets/favicon.ico" alt="" width="30" height="30">
+    </div>
+    <h3 class="ml-1">Gram</h3>
+    <button class="btn-fab toggle-menu mr-3"><span class="ti-menu"></span></button>
+  </div>
+  
+  <!-- Minibar -->
+  <div class="minibar">
+    <div class="header">
+      <div class="brand">
+        
+      </div>
+    </div>
+    <div class="content">
+      <ul class="main-menu">
+        <li class="menu-item active">
+          <a href="#home" class="menu-link">
+            <span class="icon ti-home"></span>
+            <span class="caption">Home</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#about" class="menu-link">
+            <span class="icon ti-user"></span>
+            <span class="caption">About</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#services" class="menu-link">
+            <span class="icon ti-file"></span>
+            <span class="caption">Service</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#portfolio" class="menu-link">
+            <span class="icon ti-briefcase"></span>
+            <span class="caption">Portfolio</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#blog" class="menu-link">
+            <span class="icon ti-book"></span>
+            <span class="caption">Blog</span>
+          </a>
+        </li>
+        <!-- <li class="menu-item">
+          <a href="#contact" class="menu-link">
+            <span class="icon ti-location-pin"></span>
+            <span class="caption">Contact</span>
+          </a>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+  
+  <div class="vg-main-wrapper">
+    <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg);">
+      <div class="caption wow zoomInUp">
+        <h1 class="fw-normal">Welcome</h1>
+        <h2 class="fw-medium fg-theme">I'm Abhishek </h2>
+        <p class="tagline">React Native Developer & UI/UX Designer</p>
+        <div class="col-md-3">
+          <div class="img-place wow zoomIn" style="border: 5px solid #ddd; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="../assets/img/Profesional.jpeg" alt="Photo Profile" style="width: 100%; border-radius: 10px;">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- Page About -->
+    <div class="vg-page page-about" id="about">
+      <!-- Profile -->
+      <div class="container py-3">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <div class="img-place wow zoomIn">
+              <img src="../assets/img/mypic.jpg" alt="Photo Profile">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="caption wow fadeInRight">
+              <h2 class="fg-dark">Abhishek K</h2>
+              <p class="fg-theme fw-medium">React Native Developer & UI/UX Designer</p>
+              <p>Seeking an experienced opportunity with an esteemed organization.
+                Where I can utilize my skills and enhance learning in the field of work.
+                capable of mastering new technologies.</p>
+              <ul class="theme-list">
+                <li class="fg-dark"><b>From:</b> Pattambi, Palakkad , Kerala</li>
+                <li class="fg-dark"><b>Lives In:</b> Pattambi , Palakkad, Kerala</li>
+                <li class="fg-dark"><b>Age:</b> 24</li>
+                <li class="fg-dark"><b>Gender:</b> Male</li>
+              </ul>
+              <a href="https://drive.google.com/file/d/1PbO-Ax5YkB-GZMOh65hako8DIQ0mjOEm/view" 
+              download="Abhishek_K_CV.pdf" class="btn btn-theme btn-rounded">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End profile -->
+      <!-- Skills -->
+      <div class="container mt-5">
+        <h1 class="text-center fg-dark wow fadeInUp">My Skills</h1>
+        <div class="row py-3">
+          <div class="col-md-6">
+            <h4 class="wow fadeInUp">Coding skills</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">React Native</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Python</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">HTML + CSS</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">MS office</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="wow fadeInUp">Design Skills</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">UI / UX Design</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Brochure</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Logo Design</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Poster</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End skills -->
+      <!-- Resume -->
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-md-6 wow fadeInRight">
+            <h2 class="fg-dark">Education</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">2021</div>
+                <div class="details">
+                  <h5>Python Djago</h5>
+                  <small class="fg-theme">Soften Technologies - Cochin , Ernakulam</small>
+                
+                  <p> Backend Data Storing
+                    .Django Framework</p>
+                </div>
+              </li>
+              <li>
+                <div class="title">2020</div>
+                <div class="details">
+                  <h5>Bachelor of Computer Application</h5>
+                  <small class="fg-theme">Bharathiar University</small>
+                  <h6>Chinmaya Mission Collage</h6>
+                  <p>Kolazy(Tirur)</p>
+                  <p>Thrissur , Kerala</p>
+                </div>
+              </li>
+              <li>
+                <div class="title">2017</div>
+                <div class="details">
+                  <h5>Plus Two</h5>
+                  <small class="fg-theme">State Syllabus</small>
+                  <h6>GVHSS</h6>
+                  <p>Pattambi</p>
+                  <p>Palakkad , Kerala</p>                  </div>
+              </li>
+              <li>
+                <div class="title">2015</div>
+                <div class="details">
+                  <h5>SSLC</h5>
+                  <small class="fg-theme">State Syllabus</small>
+                  <h6>PHSS Pallippuram</h6>
+                  <p>Pallippuram(Pattambi)</p>
+                  <p>Palakkad , Kerala</p>    
+                   </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+            <h2 class="fg-dark">Experience</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">2022 - Current</div>
+                <div class="details">
+                  <h5>Mobile Application Developer</h5>
+                  <small class="fg-theme">DONAMs Tech Labs – Thrissur , Kerala</small>
+                  <p>API fetching , Data manipulations and Methods
+                    . I can Design UI Pages using FIGMA software
+                    . Update to Play Store and App Store
+                    . Realm Database is Used for frond end data storing
+                    . Bluetooth connectivity and Data Sync</p>
+                </div>
+              </li>
+              <li>
+                <div class="title">2022</div>
+                <div class="details">
+                  <h5>Office Admin Assist</h5>
+                  <small class="fg-theme">Starelmec Technical LLC - Karama Center , Dubai</small>
+                  <p> Office Administration and files managing
+                    . Create Quotations and Purchase order (MS office)
+                    . Genarate Tax invoice and Cheque collections</p>
+                </div>
+              </li>
+              <li>
+                <div class="title">2020</div>
+                <div class="details">
+                  <h5>BPO Service Technical Support</h5>
+                  <small class="fg-theme">Aabasoft Technologies - Chettethukara , Ernakulam</small>
+                  <p> Malayalam BPO Voice Processing , Telecaller
+                    . Consumer Complaints Handling, and Follow Up</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- End resume -->
+    </div> <!-- End page about -->
+    
+    <!-- Page Service -->
+    <div class="vg-page page-service" id="services">
+      <h1 class="text-center wow fadeInUp">Services</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="ti-mobile"></span>
+              </div>
+              <h4 class="fg-theme">Mobile Application Development</h4>
+              <h5>iOS & Android</h5>
+              <p>I have created apps that work on iOS &Android platforms.
+                Currently those apps are available on AppStore and PlayStore
+              </p>
+              <a href="" class="btn btn-theme btn-rounded">iOS & Android</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="ti-pencil-alt"></span>
+              </div>
+              <h4 class="fg-theme">UI & UX Designing</h4>
+              <h5>Mobile & Desktop</h5>
+              <p>I have done designs for mobile apps and websites in both desktop and app formats.
+                Its done using Figma software
+              </p>
+              <a href="" class="btn btn-theme btn-rounded">UI</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="ti-palette"></span>
+              </div>
+              <h4 class="fg-theme">Art</h4>
+              <h5>Drawings , Paintings , Sketchs & Miniatures</h5>
+              <p>I have done a veriety Arts. These include pencil drawings, Acrylic paintings,
+                Sketches , Stencils, Mandala designs , Miniatures and others
+              </p>
+              <a href="" class="btn btn-theme btn-rounded">Arts</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div> <!-- End page services -->
+    
+    <!-- Testimonials -->
+    <div class="vg-page p-0" id="testimonial">
+      <div class="owl-carousel testi-carousel" style="background-image: url(../assets/img/photo-2.jpg);">
+        
+        <div class="item">
+          <div>
+          <h1 class="text-center wow fadeInUp">Project 1</h1>
+
+          <h3> PMS App</h3>
+          </div>
+
+          <p>* All main data and calculation can be obtained from
+            backend through API, and some calculation in front end
+             * Received APIs store and display the required data for
+            the Users and Admin.</p>
+          <span class="iconic">
+            <span class="ti-quote-left"></span>
+          </span>
+          <h4>PMS iOS & Android</h4>
+        </div>
+        <div class="item">
+          <div>
+            <h1 class="text-center wow fadeInUp">Project 2</h1>
+  
+            <h3> Billing App</h3>
+            </div>
+          <p>* This app mainly works Offline
+            * Data is stored in this using Realm DB
+            * Since it is Offline, Billing , Printing and other
+            functions are done through mobile.</p>
+          <span class="iconic">
+            <span class="ti-quote-left"></span>
+          </span>
+          <h4>Android App</h4>
+        </div>
+        <div class="item">
+          <div>
+            <h1 class="text-center wow fadeInUp">Project 3</h1>
+  
+            <h3> Food App</h3>
+            </div>
+          <p>* This is a restaurant website. This site has been developed
+            using Python Django framework
+            * A user can check the menu items in the restaurant.
+            * Tables can be booked online at the restaurant through this
+            site.
+            * Admin can makes updates anytime, and admin and user can
+            login through a login page</p>
+          <span class="iconic">
+            <span class="ti-quote-left"></span>
+          </span>
+          <h4>Online mall App</h4>
+        </div>
+        <div class="item">
+          <div>
+            <h1 class="text-center wow fadeInUp">Project 4</h1>
+  
+            <h3> Mall App</h3>
+            </div>
+          <p>This app has been developed using Android Studio.
+            * A user can book goods using credit / Debit card through
+            this application.
+            * All the goods inside a mall can be taken through this app</p>
+          <span class="iconic">
+            <span class="ti-quote-left"></span>
+          </span>
+          <h4>Online Mall Manager</h4>
+        </div>
+      </div>
+    </div> <!-- End testimonial -->
+    
+    <!-- Portfolio page -->
+    <div class="vg-page page-portfolio" id="portfolio">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Portfolio</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
+        <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
+          <button class="btn btn-theme-outline selected" data-filter="*">All</button>
+          <button class="btn btn-theme-outline" data-filter=".apps">Apps</button>
+          <button class="btn btn-theme-outline" data-filter=".ios">IOS</button>
+          <button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
+          <button class="btn btn-theme-outline" data-filter=".arts">Arts</button>
+        </div>
+
+        <div class="gridder my-3">
+
+          <div class="grid-item apps wow zoomIn">
+            <div class="img-place" data-src="../assets/img/work/h.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Mobile Billing App</h5> <p>Billing , Printing , Data Sync</p>">
+              <img src="../assets/img/work/h.jpg" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Mobile Billing App</h5>
+                <p>Billing , Printing , Data Sync</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item apps template wireframes wow zoomIn">
+            <div class="img-place" data-src="../assets/img/work/cll.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Mobile Collections App</h5> <p>Calculations and Tracking</p>">
+              <img src="../assets/img/work/cll.jpg" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Mobile Collections App</h5>
+                <p>Calculations and Tracking</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item apps  wow zoomIn">
+            <div class="img-place" data-src="../assets/img/work/vd.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Data Analysing App</h5> <p>Tracking , Transportation , Data Analysing</p>">
+              <img src="../assets/img/work/vd.jpg" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Data Analysing App</h5>
+                <p>Tracking , Transportation , Data Analysing</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item graphic ios ui-ux wow zoomIn">
+            <div class="img-place" data-src="../assets/img/work/Mob.png" data-fancybox data-caption="<h5 class='fg-theme'>Mobile App UI Designs</h5> <p>Mobile UI Designs</p>">
+              <img src="../assets/img/work/Mob.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Mobile App UI Designs</h5>
+                <p>Mobile UI Designs</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item ui-ux wow zoomIn">
+            <div class="img-place" data-src="../assets/img/work/web.png" data-fancybox data-caption="<h5 class='fg-theme'>Website UI Designs</h5> <p>Web UI</p>">
+              <img src="../assets/img/work/Web.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Website UI Designs</h5>
+                <p>Web UI</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item arts wireframes wow zoomIn">
+            <div class="img-place" data-src="../assets/img/work/art.jpg" data-fancybox data-caption="<h5 class='fg-theme'>My Art Gallery</h5> <p>Art Gallery</p>">
+              <img src="../assets/img/work/art.jpg" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">My Art Gallery</h5>
+                <p>Arts Gallery</p>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End gridder -->
+        <div class="text-center wow fadeInUp">
+          <a href="javascript:void(0)" class="btn btn-theme">Load More</a>
+        </div>
+      </div>
+    </div> <!-- End Portfolio page -->
+    
+    <!-- Page Blog -->
+    <div class="vg-page page-blog" id="blog">
+      <h1 class="text-center fg-dark wow fadeInUp">Latest Post</h1>
+      <div class="container">
+
+        <div class="row post-grid">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/menu.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">UI Design</a>
+                <a href="#" class="post-title">Invision design forward fund</a>
+                <span class="post-date"><span class="sr-only">Published on</span> feb 22, 2024</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/Mob.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">UI Design</a>
+                <a href="#" class="post-title">Invision design forward fund</a>
+                <span class="post-date"><span class="sr-only">Published on</span> feb 22, 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/lib.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">UI Design</a>
+                <a href="#" class="post-title">Invision design forward fund</a>
+                <span class="post-date"><span class="sr-only">Published on</span> feb 22, 2024</span>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-12 text-center py-3 wow fadeInUp">
+            <a href="blog-minibar.html" class="btn btn-theme">See All Post</a>
+          </div> -->
+        </div>
+
+        <div class="row post-grid">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/tra.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">UI Design</a>
+                <a href="#" class="post-title">Invision design forward fund</a>
+                <span class="post-date"><span class="sr-only">Published on</span> feb 22, 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/vi.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">UI Design</a>
+                <a href="#" class="post-title">Invision design forward fund</a>
+                <span class="post-date"><span class="sr-only">Published on</span> feb 22, 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/ti.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">UI Design</a>
+                <a href="#" class="post-title">Invision design forward fund</a>
+                <span class="post-date"><span class="sr-only">Published on</span> feb 22, 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 text-center py-3 wow fadeInUp">
+            <a href="blog-minibar.html" class="btn btn-theme">See All Post</a>
+          </div>
+        </div>
+
+        <div class="row post-grid">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/wed.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Art</a>
+                <a href="#" class="post-title">My passion</a>
+                <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/sis.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Art</a>
+                <a href="#" class="post-title">My passion</a>
+                <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/fr.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Art</a>
+                <a href="#" class="post-title">My passion</a>
+                <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-12 text-center py-3 wow fadeInUp">
+            <a href="blog-minibar.html" class="btn btn-theme">See All Post</a>
+          </div> -->
+        </div>
+        <div class="row post-grid">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/sre.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Art</a>
+                <a href="#" class="post-title">My passion</a>
+                <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/gen.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Art</a>
+                <a href="#" class="post-title">My passion</a>
+                <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/pep.png" alt="">
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Art</a>
+                <a href="#" class="post-title">My passion</a>
+                <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 text-center py-3 wow fadeInUp">
+            <a href="blog-minibar.html" class="btn btn-theme">See All Post</a>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End page blog -->
+    
+    <!-- Page Contact -->
+    <!-- <div class="vg-page page-contact" id="contact">
+      <h1 class="text-center fg-dark wow fadeInUp">Contact</h1>
+      <div class="container-fluid">
+        <div class="row py-5">
+          <div class="col-lg-7 wow zoomIn">
+            <div class="vg-maps">
+              <div id="google-maps" style="width: 100%; height: 100%;"></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <form class="vg-contact-form">
+              <div class="form-row">
+                <div class="col-12 wow fadeInUp">
+                  <input class="form-control" type="text" name="Name" placeholder="Your Name">
+                </div>
+                <div class="col-6 wow fadeInUp">
+                  <input class="form-control" type="text" name="Email" placeholder="Email Address">
+                </div>
+                <div class="col-6 wow fadeInUp">
+                  <input class="form-control" type="text" name="Subject" placeholder="Subject">
+                </div>
+                <div class="col-12 wow fadeInUp">
+                  <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
+                </div>
+                <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>  -->
+    <!-- End page contact -->
+    
+    <!-- Footer -->
+    <div class="vg-footer">
+      <h1 class="text-center">My Portfolio </h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 py-3">
+            <div class="footer-info">
+              <p>Where to find me</p>
+              <hr class="divider">
+              <p class="fs-large fg-white">Koppam , Pattambi , palakkad , Kerala , India</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 py-3">
+            <div class="float-lg-right">
+              <p>Follow me</p>
+              <hr class="divider">
+              <ul class="list-unstyled">
+                <li><a href="https://www.instagram.com/smilify_sketch?igsh=MnhqM2dib3EyeXJ0">Instagram</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100022618686833">Facebook</a></li>
+                <li><a href="https://x.com/abhi_kannanzzz">Twitter</a></li>
+                <li><a href="wa.me/+918891699374">WhatsApp</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 py-3">
+            <div class="float-lg-right">
+              <p>Contact me</p>
+              <hr class="divider"> 
+              <ul class="list-unstyled">
+                <li>abhi.self1@gmail.com</li>
+                <li>+91 9846 999 374</li>
+                <li>+91 8891 699 374</li>
+                <li>+91 8089 399 374</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <!-- <div class="col-12 mb-3">
+            <h3 class="fw-normal text-center">Subscribe</h3>
+          </div>
+          <div class="col-lg-6">
+            <form class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Email address">
+                <input type="submit" class="btn btn-theme no-shadow" value="Subscribe">
+              </div>
+            </form>
+          </div> -->
+          <div class="col-12">
+            <p class="text-center mb-0 mt-4">Copyright &copy;2024. All right reserved | This template is made with <span class="ti-heart fg-theme-red"></span>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End footer -->
+  </div> <!-- End main wrapper -->
+  
+  
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+  
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="../assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+  
+  <script src="../assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  
+  <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script>
+  
+  <script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+  
+  <script src="../assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+  <script src="../assets/vendor/wow/wow.min.js"></script>
+
+  <script src="../assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  
+  <script src="../assets/js/google-maps.js"></script>
+  
+  <script src="../assets/js/minibar-virtual.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+
+</body>
+</html>
